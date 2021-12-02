@@ -175,7 +175,7 @@ footer p {
     .btn {
         display: none;
     }
-
+    
     .logo {
         grid-area: nav;
         align-self: center;
@@ -187,15 +187,9 @@ footer p {
         font-family: 'FC Subject ExtBd';
         font-size: 22px;
         margin-bottom: 10px;
-
-    }
-
-
-
-
-
     }
 }
+
     @media (max-width: 600px) {
     .container {
         grid-template-columns: 1fr;
