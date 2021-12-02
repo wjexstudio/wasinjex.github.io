@@ -3,9 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+    <title>Welcome to studio homepage</title>
 
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <link rel="preload" href="FCSubject-Thin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="FCSubject-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="FCSubject-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="FCSubject-Light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="FCSubject-ExtraLight.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="FCSubject-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="FCSubject-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="FCSubject-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="FCSubject-Black.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="FCSubject-ExtraBlack.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="FCSubject-Heavy.woff2" as="font" type="font/woff2" crossorigin>
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/9.5.0/firebase-app-compat.js"></script>
@@ -42,15 +55,18 @@
   </head>
   <body>
     
+    
 
     <div class="container">
-      <header>
-          <nav>
-              <li><a href="#"><h1>Header</h1></a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+      <header class="header-bar">       
+          <div class="logo"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c27ef439-949a-46b4-a3e4-6e9be7f14d83/wjexlogo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211202T132716Z&X-Amz-Expires=86400&X-Amz-Signature=4380acc1a25fbdd1475dfcbc505c354d7fc6f22db15422121352ecd93f0d2977&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22wjexlogo.png%22&x-id=GetObject" alt=""></div>
+          <nav class="nav-menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">PROJECT</a></li>
+            <li><a href="#">SHOP</a></li>
           </nav>
-          <button>CONTACT</button>
+          <button class="btn">CONTACT</button>
       </header>
       
       <section class="main">
@@ -62,10 +78,6 @@
               
           <img src="https://unsplash.it/500/550?image=116" alt="">
       </section>
-          
-      <aside class="sidebar">
-          <h3>Sidebar</h3>
-      </aside>
           
       <footer>
           <h3>Footer</h3>
